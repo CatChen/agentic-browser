@@ -1,0 +1,9 @@
+{
+  "browser": {
+    "contextOptions": {
+      "recordHar": { "path": "out/network.har" }
+    }
+  },
+  "outputDir": "out",
+  "outputMode": "file"
+}
