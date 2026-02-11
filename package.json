@@ -4,12 +4,14 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "availability": "tsx get-availability.ts"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "playwright": "^1.49.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
